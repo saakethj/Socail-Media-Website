@@ -4,6 +4,8 @@
 $fname = filter_input(INPUT_POST, 'fname');
 $lname = filter_input(INPUT_POST, 'lname');
 $email = filter_input(INPUT_POST, 'email');
+$gender = filter_input(INPUT_POST, 'gender');
+$dob = filter_input(INPUT_POST, 'dob');
 $username = filter_input(INPUT_POST, 'username');
 $password = filter_input(INPUT_POST, 'password');
 
@@ -22,11 +24,11 @@ if(!empty($email) || !empty($username) || !empty($password)){
     else{
 
         // sql query for inserting data in database
-        $sql = "INSERT INTO signup (first_name, last_name, email, username, password)
-        values ('$fname', '$lname', '$email', '$username','$password')";
+        $sql = "INSERT INTO signup (first_name, last_name, email, gender, date_of_birth, username, password)
+        values ('$fname', '$lname', '$email', '$gender', '$dob', '$username','$password')";
 
-        if($con -> query($sql)){
-            echo "New recod is inserted successfully";
+        if($con -> query($sql)){ 
+            echo "Record entered successfully";
         }
         else{
             echo "Error: ". $sql ."

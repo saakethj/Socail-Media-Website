@@ -41,7 +41,7 @@
           <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
             <input class="input100" type="text" name="email" />
             <span class="focus-input100"></span>
-            <span class="label-input100">Email</span>
+            <span class="label-input100">Email or Username</span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate="Password is required">
@@ -67,10 +67,10 @@
             <button class="login100-form-btn">Login</button>
           </div>
           <div class="text-center p-t-46 p-b-20">
-            <span class="txt2">or SIGN UP</span>
+            <span class="txt2"></span>
           </div>
-
-          <button type="button" class="btn btn-primary login100-form-btn" data-toggle="modal" data-target="#exampleModalCenter">
+          <button type="button" class="btn btn-primary login100-form-btn" data-toggle="modal"
+            data-target="#exampleModalCenter">
             Sign up
           </button>
         </form>
@@ -104,7 +104,17 @@
                       <input type="text" class="input" placeholder="a" name="email" />
                       <label for="" class="label">Email</label>
                     </div>
-
+                    <div class="inputContainer">
+                      <select name="gender" id="gender" class="input">
+                        <option value=""></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                      </select>
+                      <label for="" class="label">Gender</label>
+                    </div>
+                    <div class="inputContainer">
+                      <input type="date" class="input" placeholder="a" name="dob" />
+                    </div>
                     <div class="inputContainer">
                       <input type="text" class="input" placeholder="a" name="username" />
                       <label for="" class="label">Username</label>
@@ -112,11 +122,6 @@
                     <div class="inputContainer">
                       <input type="password" class="input" placeholder="a" name="password" />
                       <label for="" class="label">Password</label>
-                    </div>
-
-                    <div class="inputContainer">
-                      <input type="password" class="input" placeholder="a" />
-                      <label for="" class="label">Confirm Password</label>
                     </div>
                     <div style="padding-top: 10px">
                       <input type="submit" class="submitBtn" value="Sign up" />
