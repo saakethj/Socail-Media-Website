@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 150px
+}
+
+.container .nav-links .icons-description{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+}
+
+.container .nav-links .icons-description a{
+    font-size: 18px;
+}
+
+.icons-description a p{
+    float: right;
+}
+.main-news-feed{
+    display: flex;
+    flex: 2;
+}
+
+.trending{
+    display: flex;
+    flex: 1;
+    /* padding-right: 140px; */
+}
