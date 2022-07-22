@@ -129,6 +129,9 @@ textarea {
   z-index: 1;
 }
 
+.text-center{
+  margin-bottom: 26px;
+}
 .inputContainer .input::placeholder{
   color: transparent;
 }
