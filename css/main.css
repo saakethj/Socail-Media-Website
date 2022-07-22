@@ -287,7 +287,7 @@ iframe {
 
 .txt2 {
   font-family: Montserrat-Regular;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.4;
   color: #999999;
 }
@@ -566,6 +566,9 @@ input.input100 {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+input::-webkit-datetime-edit{ color: transparent; }
+input:focus::-webkit-datetime-edit{ color: #000; }
 
 /*------------------------------------------------------------------
 [ Button ]*/
