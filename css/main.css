@@ -114,6 +114,17 @@ textarea {
   height: 40px
 }
 
+.two-childs{
+  display: flex;
+}
+
+.width-50{
+  width: 50%;
+}
+
+.mar-left{
+  margin-left: 10px;
+}
 .inputContainer .input{
   position: absolute;
   top: 0px;
