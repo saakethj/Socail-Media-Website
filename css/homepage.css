@@ -57,6 +57,7 @@
     margin-top: 20px;
     background-color: #6675df;
     box-shadow: rgb(149 157 165 / 20%) 0px 6px 24px;
+    cursor: pointer;
   }
   
   body {
@@ -270,7 +271,7 @@
   }
 
   .widgets__widgetContainer .follow_friends .post__headerText h3{
-    margin-bottom: 0px !important;
+    margin-bottom: -5px !important;
   }
 
   .widgets__widgetContainer .follow_friends .username_follow{
@@ -288,11 +289,11 @@
     border-radius: 30px;
     color: white;
     font-size: 15px;
-    /* font-weight: 700; */
+    cursor: pointer;
   }
 
   .follow_button{
-    width: 35%;
+    width: 30%;
   }
 
   .widgets__widgetContainer h2 {

@@ -80,7 +80,7 @@
         <form>
           <div class="tweetbox__input">
             <img
-              src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+              src="../images/profile.jpg"
               alt=""
             />
             <input type="text" placeholder="Post anything :)" />
@@ -94,7 +94,7 @@
       <div class="post">
         <div class="post__avatar">
           <img
-            src="../images/profile.jpg"
+            src="../images/feed dp/saaketh jella.jpg"
             alt=""
           />
         </div>
@@ -103,7 +103,7 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                JellaSaaketh
+                Jella Saaketh
                 <span class="post__headerSpecial"
                   ><span class="material-icons post__badge"> verified </span>@saakethJ</span
                 >
@@ -114,7 +114,7 @@
             </div>
           </div>
           <img
-            src="../images/feed photos/ann.png"
+            src="../images/feed photos/neural-networks.jpg"
             alt=""
           />
           <div class="post__footer">
@@ -130,7 +130,7 @@
       <div class="post">
         <div class="post__avatar">
           <img
-            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            src="../images/feed dp/avengers.jpg"
             alt=""
           />
         </div>
@@ -139,7 +139,7 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                DavidJohnson
+                David Johnson
                 <span class="post__headerSpecial"
                   ><span class="material-icons post__badge"> verified </span>@David_2612</span
                 >
@@ -152,7 +152,7 @@
             </div>
           </div>
           <img
-            src="https://cdn.britannica.com/60/182360-050-CD8878D6/Avengers-Age-of-Ultron-Joss-Whedon.jpg"
+            src="../images/feed photos/avengers.jpg"
             alt=""
           />
           <div class="post__footer">
@@ -167,7 +167,7 @@
       <div class="post">
         <div class="post__avatar">
           <img
-            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            src="../images/feed dp/hughie.jpg"
             alt=""
           />
         </div>
@@ -176,7 +176,7 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                PeterHughie
+                Peter Hughie
                 <span class="post__headerSpecial"
                   ><span class="material-icons post__badge"> verified </span>@Peter_2022</span
                 >
@@ -201,7 +201,7 @@
       <div class="post">
         <div class="post__avatar">
           <img
-            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            src="../images/feed dp/butcher.jpg"
             alt=""
           />
         </div>
@@ -210,7 +210,7 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                DavidJohnson
+                Billy Butcher
                 <span class="post__headerSpecial"
                   ><span class="material-icons post__badge"> verified </span>@David_2612</span
                 >
@@ -221,7 +221,7 @@
             </div>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1604940500627-d3f44d1d21c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            src="../images/feed photos/car.jpg"
             alt=""
           />
           <div class="post__footer">
@@ -235,7 +235,7 @@
       <div class="post">
         <div class="post__avatar">
           <img
-            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            src="../images/feed dp/st.jpg"
             alt=""
           />
         </div>
@@ -294,7 +294,7 @@
       </div>
 
       <div class="widgets__widgetContainer">
-        <h2>Follow your friends</h2>
+        <h2>People you may know</h2>
         <br>
         <div class="follow_friends">
           <div class="friends_dp">
