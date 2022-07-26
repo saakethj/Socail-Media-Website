@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: 'Source Sans Pro', sans-serif; */
   }
   
   body {
     --twitter-color: #50b7f5;
     --twitter-background: #e6ecf0;
+
   }
   
+  .links{
+    text-decoration: none;
+    color: inherit;
+  }
+
   .sidebarOption {
     display: flex;
     align-items: center;
@@ -39,13 +48,15 @@
   
   .sidebar__tweet {
     width: 100%;
-    background-color: var(--twitter-color);
+    /* background-color: var(--twitter-color); */
     border: none;
     color: white;
     font-weight: 900;
     border-radius: 30px;
     height: 50px;
     margin-top: 20px;
+    background-color: #6675df;
+    box-shadow: rgb(149 157 165 / 20%) 0px 6px 24px;
   }
   
   body {
@@ -92,6 +103,7 @@
   .feed__header h2 {
     font-size: 20px;
     font-weight: 800;
+    text-align: center;
   }
   
   .feed::-webkit-scrollbar {
@@ -191,6 +203,7 @@
   .post__headerDescription {
     margin-bottom: 10px;
     font-size: 15px;
+    max-width: fit-content;
   }
   
   .post__body {
