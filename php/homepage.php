@@ -267,6 +267,40 @@
           </div>
         </div>
       </div>
+
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="../images/feed dp/frenchie.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Frenchie Serge
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@Frenchie_serge245</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>i love frenchie from the boys so much, i wish french people were real :(</p>
+            </div>
+          </div>
+          <img
+            src="../images/feed photos/the boys.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
     </div>
     
     <!-- feed ends -->
