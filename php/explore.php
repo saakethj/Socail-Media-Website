@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home</title>
+        <title>Seek</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/homepage.css">
+        <link rel="stylesheet" href="../css/explore.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link
         rel="stylesheet"
@@ -279,31 +280,16 @@
       </div>
 
       <div class="widgets__widgetContainer">
-        <h2>Trending</h2>
-        <br>
-        <p class="trending_heading">#House of the dragon</p>
-        <p class="trending_content">House of the Dragon will start streaming from Aug 16 on Disney + hotstar</p>
-        <br>
-        <p class="trending_heading">#Wakanda Forever</p>
-        <p class="trending_content">The first trailer for ‘BLACK PANTHER: WAKANDA FOREVER’ received 172 million views in its first 24 hours</p>
-        <br>
-        <p class="trending_heading">#IND VS WI</p>
-        <p class="trending_content">IND vs WI: Kuldeep Yadav Leaves India To Join The T20I Squad In West Indies</p>
-        <br>
-        <p class="trending_heading">#BreakingBad</p>
-      </div>
-
-      <div class="widgets__widgetContainer">
-        <h2>People you may know</h2>
+        <h2>Who to follow</h2>
         <br>
         <div class="follow_friends">
           <div class="friends_dp">
-            <img src="../images/Friends profile/friend1.jpg" alt="jeaniedp" />
+            <img src="../images/explore/matt.jpg" alt="jeaniedp" />
           </div>
           <div class="username_follow">
             <div class="post__headerText">
-              <h3>Jeanie_bts</h3>
-              <span class="post__headerSpecial">@Jsk_1011</span>
+              <h3>Matt Ramos</h3>
+              <span class="post__headerSpecial">@therealsupes</span>
             </div>
             <div class="follow_button">
               <button class="follow">Follow</button>
@@ -314,12 +300,28 @@
         <br>
         <div class="follow_friends">
           <div class="friends_dp">
-            <img src="../images/Friends profile/friend2.jpg" alt="film" />
+            <img src="../images/explore/mcu.jpg" alt="film" />
           </div>
           <div class="username_follow">
             <div class="post__headerText">
-              <h3>cinesthetic</h3>
-              <span class="post__headerSpecial">@TheCinesthetic</span>
+              <h3>MCU - The Direct</h3>
+              <span class="post__headerSpecial">@MCU_Direct</span>
+            </div>
+            <div class="follow_button">
+              <button class="follow">Follow</button>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <div class="follow_friends">
+          <div class="friends_dp">
+            <img src="../images/explore/kf.jpg" alt="film" />
+          </div>
+          <div class="username_follow">
+            <div class="post__headerText">
+              <h3>Kevin Feige</h3>
+              <span class="post__headerSpecial">@Kevfeige</span>
             </div>
             <div class="follow_button">
               <button class="follow">Follow</button>
@@ -327,6 +329,23 @@
           </div>
         </div>
       </div>
+      <div class="policies">
+        <div class="tos">
+            <a href="">
+                <span class="end_description">Terms Of Service</span>
+            </a>
+        </div>
+        <div class="tos">
+            <a href="">
+                <span class="end_description">Cookie policy</span>
+            </a>
+        </div>
+        <div class="tos">
+            <a href="">
+                <span class="end_description">Accesibility</span>
+            </a>
+        </div>
+    </div>
     </div>
     <!-- widgets ends -->
     </body>

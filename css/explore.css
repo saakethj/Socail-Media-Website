@@ -1,0 +1,14 @@
+.policies{
+    margin: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policies a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.policies .tos .end_description{
+    font-size: x-small;
+}

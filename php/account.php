@@ -31,28 +31,28 @@
       </div>
       </a>
 
-      <a href="" class="links">
+      <a href="explore.php" class="links">
       <div class="sidebarOption">
         <span class="material-icons"> search </span>
         <h2>Seek</h2>
       </div>
       </a>
 
-      <a href="" class="links">
+      <a href="notifications.php" class="links">
       <div class="sidebarOption">
         <span class="material-icons"> notifications_none </span>
         <h2>Notifications</h2>
       </div>
       </a>
 
-      <a href="" class="links">
+      <a href="chats.php" class="links">
       <div class="sidebarOption">
         <span class="material-icons"> mail_outline </span>
         <h2>Chats</h2>
       </div>
       </a>
       
-      <a href="" class="links">
+      <a href="saved.php" class="links">
       <div class="sidebarOption">
         <span class="material-icons"> bookmark_border </span>
         <h2>Saved</h2>
