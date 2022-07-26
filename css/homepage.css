@@ -30,7 +30,7 @@
   }
   
   .sidebarOption h2 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 20px;
     margin-right: 20px;
   }
@@ -38,12 +38,14 @@
   .sidebarOption:hover {
     background-color: var(--twitter-background);
     border-radius: 30px;
-    color: var(--twitter-color);
+    /* color: var(--twitter-color); */
+    color: #6675df;
     transition: color 100ms ease-out;
   }
   
   .sidebarOption.active {
-    color: var(--twitter-color);
+    /* color: var(--twitter-color); */
+    color: #6675df;
   }
   
   .sidebar__tweet {
@@ -155,7 +157,8 @@
   }
   
   .tweetBox__tweetButton {
-    background-color: var(--twitter-color);
+    /* background-color: var(--twitter-color); */
+    background-color: #6675df;
     border: none;
     color: white;
     font-weight: 900;

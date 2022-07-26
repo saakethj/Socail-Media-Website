@@ -23,7 +23,7 @@
         <img src="../images/logo.png" alt="sdsa" class="logo" height="30px" style="padding-left: 20px;">
       </div>
 
-      <a href="" class="links">
+      <a href="homepage.php" class="links">
       <div class="sidebarOption active">
         <span class="material-icons"> home </span>
         <h2>Home</h2>
@@ -58,7 +58,7 @@
       </div>
       </a>
 
-      <a href="" class="links">
+      <a href="account.php" class="links">
       <div class="sidebarOption">
         <span class="material-icons"> perm_identity </span>
         <h2>Account</h2>
