@@ -218,7 +218,7 @@
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>Vintage cars have a different vibe</p>
+              <p>Vintage cars have a different vibe eh?!</p>
             </div>
           </div>
           <img
