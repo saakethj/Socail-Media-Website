@@ -73,200 +73,63 @@
     <!-- feed starts -->
     <div class="feed">
       <div class="feed__header">
-        <h2>News Feed</h2>
-      </div>
-
-      <!-- tweetbox starts -->
-      <div class="tweetBox">
-        <form>
-          <div class="tweetbox__input">
-            <img
-              src="../images/profile.jpg"
-              alt=""
-            />
-            <input type="text" placeholder="Post anything :)" />
-          </div>
-          <button class="tweetBox__tweetButton">Post</button>
-        </form>
-      </div>
-      <!-- tweetbox ends -->
-
-      <!-- post starts -->
-      <div class="post">
-        <div class="post__avatar">
-          <img
-            src="../images/feed dp/saaketh jella.jpg"
-            alt=""
-          />
-        </div>
-
-        <div class="post__body">
-          <div class="post__header">
-            <div class="post__headerText">
-              <h3>
-                Jella Saaketh
-                <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@saakethJ</span
-                >
-              </h3>
-            </div>
-            <div class="post__headerDescription">
-              <p><span class="highlight_words">#Neural networks</span>, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of <span class="highlight_words">#machine learning</span> and are at the heart of deep learning algorithms. Their name and structure are inspired by the human brain, mimicking the way that biological neurons signal to one another.</p>
-            </div>
-          </div>
-          <img
-            src="../images/feed photos/neural-networks.jpg"
-            alt=""
-          />
-          <div class="post__footer">
-            <span class="material-icons"> repeat </span>
-            <span class="material-icons"> favorite_border </span>
-            <span class="material-icons"> publish </span>
-          </div>
+        <h2>Explore</h2>
+        <div class="widgets__input">
+            <span class="material-icons widgets__searchIcon"> search </span>
+            <input type="text" placeholder="Search" />
         </div>
       </div>
-      <!-- post ends -->
-
-      <!-- post starts -->
-      <div class="post">
-        <div class="post__avatar">
-          <img
-            src="../images/feed dp/avengers.jpg"
-            alt=""
-          />
-        </div>
-
-        <div class="post__body">
-          <div class="post__header">
-            <div class="post__headerText">
-              <h3>
-                David Johnson
-                <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@David_2612</span
-                >
-              </h3>
-            </div>
-            <div class="post__headerDescription">
-              <p><span class="highlight_words">#The Avengers</span>, American comic strip superhero team whose frequently
-              changing roster often included some of the most popular characters
-              in the <span class="highlight_words">#Marvel Comics universe</span>. </p>
-            </div>
-          </div>
-          <img
-            src="../images/feed photos/avengers.jpg"
-            alt=""
-          />
-          <div class="post__footer">
-            <span class="material-icons"> repeat </span>
-            <span class="material-icons"> favorite_border </span>
-            <span class="material-icons"> publish </span>
-          </div>
-        </div>
-      </div>
-      <!-- post ends -->
-
-      <div class="post">
-        <div class="post__avatar">
-          <img
-            src="../images/feed dp/hughie.jpg"
-            alt=""
-          />
-        </div>
-
-        <div class="post__body">
-          <div class="post__header">
-            <div class="post__headerText">
-              <h3>
-                Peter Hughie
-                <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@Peter_2022</span
-                >
-              </h3>
-            </div>
-            <div class="post__headerDescription">
-              <p><span class="highlight_words">Keanu Reeves</span> told Extra that he would love to play an older, wisened <span class="highlight_words">@Batman</span> someday: “It’s always been a dream, but Pattinson’s Batman right now. He’s doing awesome, but maybe down the road when they need an older Batman.”</p>
-            </div>
-          </div>
-          <!-- <img
-            src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
-            alt=""
-          /> -->
-          <div class="post__footer">
-            <span class="material-icons"> repeat </span>
-            <span class="material-icons"> favorite_border </span>
-            <span class="material-icons"> publish </span>
-          </div>
+      <div class="first_news">
+        <div class="first_news_info">
+          <span style="color: white; font-size: x-small;">Entertainment</span>
+          <p>Dragons are coming to Disney+ Hotstar. House of the Dragon, starts streaming 22 Aug. #HOTDonHotstar</p>
         </div>
       </div>
 
-      <div class="post">
-        <div class="post__avatar">
-          <img
-            src="../images/feed dp/butcher.jpg"
-            alt=""
-          />
-        </div>
-
-        <div class="post__body">
-          <div class="post__header">
-            <div class="post__headerText">
-              <h3>
-                Billy Butcher
-                <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@David_2612</span
-                >
-              </h3>
-            </div>
-            <div class="post__headerDescription">
-              <p>Vintage cars have a different vibe</p>
-            </div>
-          </div>
-          <img
-            src="../images/feed photos/car.jpg"
-            alt=""
-          />
-          <div class="post__footer">
-            <span class="material-icons"> repeat </span>
-            <span class="material-icons"> favorite_border </span>
-            <span class="material-icons"> publish </span>
-          </div>
-        </div>
+      <div class="normal_news">
+        <span class="span_headings">Movies and Tv</span>
+        <p class="hashtags">#Adipurush</p>
+        <span class="span_headings">20k Posts</span>
       </div>
 
-      <div class="post">
-        <div class="post__avatar">
-          <img
-            src="../images/feed dp/st.jpg"
-            alt=""
-          />
-        </div>
+      <div class="normal_news">
+        <span class="span_headings">Trending in Politics</span>
+        <p class="hashtags">Punjab CM</p>
+        <span class="span_headings">13k Posts</span>
+      </div>
 
-        <div class="post__body">
-          <div class="post__header">
-            <div class="post__headerText">
-              <h3>
-                Stranger Things
-                <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@StrangerThings_011</span
-                >
-              </h3>
-            </div>
-            <div class="post__headerDescription">
-              <p>*Waits 1000 days for Stranger Things to return* <br>
-              <br>
-              *Finishes it in 1 day*</p>
-            </div>
+      <div class="normal_news">
+        <span class="span_headings">Techcnology</span>
+        <p class="hashtags">#Nothing</p>
+        <div class="inside_content">
+          <div class="inside_matter">
+            <p>Nothing phone (1) has come out</p>
           </div>
-          <!-- <img
-            src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
-            alt=""
-          /> -->
-          <div class="post__footer">
-            <span class="material-icons"> repeat </span>
-            <span class="material-icons"> favorite_border </span>
-            <span class="material-icons"> publish </span>
+          <div class="inside_matter_image">
+            <img src="../images/explore/nothing.jpg" alt="" height="30px">
           </div>
         </div>
+        <span class="span_headings">14k Posts</span>
+      </div>
+
+      <div class="normal_news">
+        <span class="span_headings">War in Ukraine</span>
+        <p class="hashtags">Latest updates on the war in Ukraine</p>
+        <span class="span_headings">6.7k Posts</span>
+      </div>
+
+      <div class="normal_news">
+        <span class="span_headings">Movies and Tv</span>
+        <p class="hashtags">#Adipurush</p>
+        <div class="inside_content">
+        <div class="inside_matter">
+            <p>Nothing phone (1) has come out</p>
+          </div>
+          <div class="inside_matter_image">
+            <img src="../images/explore/nothing.jpg" alt="" height="30px">
+          </div>
+        </div>
+        <span class="span_headings">1.8k Posts</span>
       </div>
     </div>
     
@@ -274,11 +137,6 @@
 
     <!-- widgets starts -->
     <div class="widgets">
-      <div class="widgets__input">
-        <span class="material-icons widgets__searchIcon"> search </span>
-        <input type="text" placeholder="Search" />
-      </div>
-
       <div class="widgets__widgetContainer">
         <h2>Who to follow</h2>
         <br>

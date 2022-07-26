@@ -9,6 +9,67 @@
     color: inherit;
 }
 
+.policies a:hover{
+    color: #6675df;
+}
+
 .policies .tos .end_description{
     font-size: x-small;
+}
+
+.feed .feed__header h2{
+    text-align: left;
+}
+
+.feed .feed__header .widgets__input{
+    margin-left: 0px;
+}
+
+.first_news{
+    background-image: url(../images/explore/dragon.jpg);
+    height: 400px;
+    background-size: 620px;
+    /* scroll-behavior: smooth; */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+}
+
+.feed .first_news .first_news_info{
+    max-width: fit-content;
+    margin: 0px 10px 0px;
+
+}
+
+.feed .first_news .first_news_info p{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.normal_news{
+    padding: 10px;
+    border-bottom: 1px solid var(--twitter-background);
+}
+
+.span_headings{
+    font-size: smaller;
+}
+
+.hashtags{
+    font-weight: 700;
+}
+
+.inside_content{
+    height: 100px;
+    border: 1px solid var(--twitter-background);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.inside_content .inside_matter{
+    width: 80%;
+    padding-left: 10px;
+    border-right: 1px solid var(--twitter-background);
 }

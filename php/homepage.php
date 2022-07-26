@@ -30,7 +30,7 @@
       </div>
       </a>
 
-      <a href="explore" class="links">
+      <a href="explore.php" class="links">
       <div class="sidebarOption">
         <span class="material-icons"> search </span>
         <h2>Seek</h2>
