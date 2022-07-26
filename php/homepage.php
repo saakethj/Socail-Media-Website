@@ -246,7 +246,7 @@
               <h3>
                 Stranger Things
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@StrangerThinfs_011</span
+                  ><span class="material-icons post__badge"> verified </span>@StrangerThings_011</span
                 >
               </h3>
             </div>
@@ -291,6 +291,41 @@
         <p class="trending_content">IND vs WI: Kuldeep Yadav Leaves India To Join The T20I Squad In West Indies</p>
         <br>
         <p class="trending_heading">#BreakingBad</p>
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h2>Follow your friends</h2>
+        <br>
+        <div class="follow_friends">
+          <div class="friends_dp">
+            <img src="../images/Friends profile/friend1.jpg" alt="jeaniedp" />
+          </div>
+          <div class="username_follow">
+            <div class="post__headerText">
+              <h3>Jeanie_bts</h3>
+              <span class="post__headerSpecial">@Jsk_1011</span>
+            </div>
+            <div class="follow_button">
+              <button class="follow">Follow</button>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <div class="follow_friends">
+          <div class="friends_dp">
+            <img src="../images/Friends profile/friend2.jpg" alt="film" />
+          </div>
+          <div class="username_follow">
+            <div class="post__headerText">
+              <h3>cinesthetic</h3>
+              <span class="post__headerSpecial">@TheCinesthetic</span>
+            </div>
+            <div class="follow_button">
+              <button class="follow">Follow</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- widgets ends -->
