@@ -94,7 +94,7 @@
       <div class="post">
         <div class="post__avatar">
           <img
-            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            src="../images/profile.jpg"
             alt=""
           />
         </div>
@@ -110,7 +110,7 @@
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>Neural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine learning and are at the heart of deep learning algorithms. Their name and structure are inspired by the human brain, mimicking the way that biological neurons signal to one another.</p>
+              <p><span class="highlight_words">#Neural networks</span>, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of <span class="highlight_words">#machine learning</span> and are at the heart of deep learning algorithms. Their name and structure are inspired by the human brain, mimicking the way that biological neurons signal to one another.</p>
             </div>
           </div>
           <img
@@ -146,9 +146,9 @@
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>The Avengers, American comic strip superhero team whose frequently
+              <p><span class="highlight_words">#The Avengers</span>, American comic strip superhero team whose frequently
               changing roster often included some of the most popular characters
-              in the Marvel Comics universe. </p>
+              in the <span class="highlight_words">#Marvel Comics universe</span>. </p>
             </div>
           </div>
           <img
@@ -183,8 +183,77 @@
               </h3>
             </div>
             <div class="post__headerDescription">
-              <p>Keanu Reeves told Extra that he would love to play an older, wisened Batman someday: “It’s always been a dream, but Pattinson’s Batman right now. He’s doing awesome, but maybe down the road when they need an older Batman.”
-</p>
+              <p><span class="highlight_words">Keanu Reeves</span> told Extra that he would love to play an older, wisened <span class="highlight_words">@Batman</span> someday: “It’s always been a dream, but Pattinson’s Batman right now. He’s doing awesome, but maybe down the road when they need an older Batman.”</p>
+            </div>
+          </div>
+          <!-- <img
+            src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
+            alt=""
+          /> -->
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                DavidJohnson
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@David_2612</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>Vintage cars have a different vibe</p>
+            </div>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1604940500627-d3f44d1d21c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+                Stranger Things
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@StrangerThinfs_011</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>*Waits 1000 days for Stranger Things to return* <br>
+              <br>
+              *Finishes it in 1 day*</p>
             </div>
           </div>
           <!-- <img
@@ -199,6 +268,7 @@
         </div>
       </div>
     </div>
+    
     <!-- feed ends -->
 
     <!-- widgets starts -->
@@ -209,25 +279,18 @@
       </div>
 
       <div class="widgets__widgetContainer">
-        <h2>What's happening?</h2>
-        <blockquote class="twitter-tweet">
-          <p lang="en" dir="ltr">
-            Sunsets don&#39;t get much better than this one over
-            <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
-            <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
-              >#nature</a
-            >
-            <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
-              >#sunset</a
-            >
-            <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
-          </p>
-          &mdash; US Department of the Interior (@Interior)
-          <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
-            >May 5, 2014</a
-          >
-        </blockquote>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <h2>Trending</h2>
+        <br>
+        <p class="trending_heading">#House of the dragon</p>
+        <p class="trending_content">House of the Dragon will start streaming from Aug 16 on Disney + hotstar</p>
+        <br>
+        <p class="trending_heading">#Wakanda Forever</p>
+        <p class="trending_content">The first trailer for ‘BLACK PANTHER: WAKANDA FOREVER’ received 172 million views in its first 24 hours</p>
+        <br>
+        <p class="trending_heading">#IND VS WI</p>
+        <p class="trending_content">IND vs WI: Kuldeep Yadav Leaves India To Join The T20I Squad In West Indies</p>
+        <br>
+        <p class="trending_heading">#BreakingBad</p>
       </div>
     </div>
     <!-- widgets ends -->

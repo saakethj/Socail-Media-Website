@@ -68,6 +68,14 @@
     padding: 0 10px;
   }
   
+  .highlight_words{
+    color: #6675df;
+  }
+
+  .trending_heading{
+    font-size: small;
+    font-weight: 700;
+  }
   .sidebar {
     border-right: 1px solid var(--twitter-background);
     flex: 0.2;
@@ -247,6 +255,10 @@
     border-radius: 20px;
   }
   
+  .widgets__widgetContainer .trending_content{
+    font-size: small;
+
+  }
   .widgets__widgetContainer h2 {
     font-size: 18px;
     font-weight: 800;
