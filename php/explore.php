@@ -68,6 +68,8 @@
       </a>
 
       <button class="sidebar__tweet">Post</button>
+
+      <button class="sidebar__tweet" id="kill">Logout</button>
     </div>
     <!-- sidebar ends -->
 
@@ -207,5 +209,6 @@
     </div>
     </div>
     <!-- widgets ends -->
+    <script src="../js/app.js"></script>
     </body>
 </html>
