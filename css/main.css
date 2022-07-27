@@ -111,27 +111,27 @@ textarea {
   display: flex;
   margin-bottom: 20px;
   position: relative;
-  height: 40px
+  height: 40px;
 }
 
-.two-childs{
+.two-childs {
   display: flex;
 }
 
-.width-50{
+.width-50 {
   width: 50%;
 }
 
-.mar-left{
+.mar-left {
   margin-left: 10px;
 }
-.inputContainer .input{
+.inputContainer .input {
   position: absolute;
   top: 0px;
   left: 0px;
   height: 100%;
   width: 100%;
-  border: 1px solid #DADCE0;
+  border: 1px solid #dadce0;
   border-radius: 7px;
   font-size: 16px;
   padding: 0 20px;
@@ -140,26 +140,26 @@ textarea {
   z-index: 1;
 }
 
-.text-center{
+.text-center {
   margin-bottom: 26px;
 }
-.inputContainer .input::placeholder{
+.inputContainer .input::placeholder {
   color: transparent;
 }
 
-.signupFrm .label{
+.signupFrm .label {
   position: absolute;
   top: 7px;
   left: 15px;
   padding: 0 4px;
   background-color: white;
-  color: #DADCE0;
+  color: #dadce0;
   font-size: 16px;
   transition: 0.5s;
   z-index: 0;
 }
 
-.submitBtn{
+.submitBtn {
   display: block;
   padding: 6px 15px;
   border: none;
@@ -174,7 +174,7 @@ textarea {
   /* transform: translateY(-2px); */
 }
 
-.inputContainer .input:focus + .label{
+.inputContainer .input:focus + .label {
   top: -7px;
   left: 3px;
   z-index: 10;
@@ -183,11 +183,11 @@ textarea {
   color: #6675df;
 }
 
-.inputContainer .input:focus{
+.inputContainer .input:focus {
   border-color: #6675df !important;
 }
 
-.inputContainer .input:not(:placeholder-shown)+ .label {
+.inputContainer .input:not(:placeholder-shown) + .label {
   top: -7px;
   left: 3px;
   z-index: 10;
@@ -196,7 +196,6 @@ textarea {
 }
 
 textarea:focus,
-
 input:focus {
   border-color: transparent !important;
 }
@@ -567,8 +566,8 @@ input.input100 {
   transform: translateY(-50%);
 }
 
-input::-webkit-datetime-edit{ color: transparent; }
-input:focus::-webkit-datetime-edit{ color: #000; }
+/* input::-webkit-datetime-edit{ color: transparent; }
+input:focus::-webkit-datetime-edit{ color: #000; } */
 
 /*------------------------------------------------------------------
 [ Button ]*/
