@@ -26,12 +26,14 @@
 }
 
 .first_news{
-    background-image: url(../images/explore/dragon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, -0.4), rgba(0, 0, 0, 0.8)), url(../images/explore/dragon.jpg);
     height: 400px;
     background-size: 620px;
     /* scroll-behavior: smooth; */
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
 }
 
 .feed .first_news .first_news_info{
@@ -42,8 +44,8 @@
 
 .feed .first_news .first_news_info p{
     color: white;
-    font-size: larger;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .normal_news{
@@ -71,5 +73,9 @@
 .inside_content .inside_matter{
     width: 80%;
     padding-left: 10px;
-    border-right: 1px solid var(--twitter-background);
+    max-width: fit-content;
+}
+
+.inside_matter_image{
+    background-image: url(../images/explore/nothing.jpg)
 }

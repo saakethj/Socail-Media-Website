@@ -106,10 +106,10 @@
         <p class="hashtags">#Nothing</p>
         <div class="inside_content">
           <div class="inside_matter">
-            <p>Nothing phone (1) has come out</p>
+            <p>The Nothing Phone (1) boasts an elegant style that comes to life with beautiful symbols to enable an enriched connection between you and your device.</p>
           </div>
           <div class="inside_matter_image">
-            <img src="../images/explore/nothing.jpg" alt="" height="30px">
+            <!-- <img src="../images/explore/nothing.jpg" alt="" height="50px"> -->
           </div>
         </div>
         <span class="span_headings">14k Posts</span>
@@ -122,14 +122,11 @@
       </div>
 
       <div class="normal_news">
-        <span class="span_headings">Movies and Tv</span>
-        <p class="hashtags">#Adipurush</p>
+        <span class="span_headings">Entertainment · Trending</span>
+        <p class="hashtags">#ShreyasTalpade</p>
         <div class="inside_content">
         <div class="inside_matter">
-            <p>Nothing phone (1) has come out</p>
-          </div>
-          <div class="inside_matter_image">
-            <img src="../images/explore/nothing.jpg" alt="" height="30px">
+            <p>#ShreyasTalpade as Prime Minister #AtalBihariVajpayee in #KanganaRanaut's ‘#Emergency’ looks impressing! @shreyastalpade1 </p>
           </div>
         </div>
         <span class="span_headings">1.8k Posts</span>

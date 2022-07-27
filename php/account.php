@@ -126,7 +126,13 @@
               </h3>
             </div>
             <div class="post__headerDescription">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut modi cumque fuga adipisci dolore ullam! Optio architecto deleniti laudantium est, quidem ipsam, aliquam earum aperiam delectus impedit natus consequuntur nobis?</p>
+                <p>
+                  <?php
+                    $post_data = filter_input(INPUT_POST, 'post');
+
+                    echo $post_data;
+                  ?>
+                </p>
             </div>
           </div>
         </div>

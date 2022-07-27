@@ -80,13 +80,13 @@
 
       <!-- tweetbox starts -->
       <div class="tweetBox">
-        <form>
+        <form action="account.php" method="post">
           <div class="tweetbox__input">
             <img
               src="../images/profile.jpg"
               alt=""
             />
-            <input type="text" placeholder="Post anything :)" />
+            <input type="text" placeholder="Post anything :)" name="post"/>
           </div>
           <button class="tweetBox__tweetButton">Post</button>
         </form>
