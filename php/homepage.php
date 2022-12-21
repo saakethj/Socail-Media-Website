@@ -318,7 +318,7 @@
             <span class="post__headerSpecial">@Jsk_1011</span>
           </div>
           <div class="follow_button">
-            <button class="follow">Follow</button>
+            <button class="follow" id="fobtn">Follow</button>
           </div>
         </div>
       </div>
@@ -334,7 +334,7 @@
             <span class="post__headerSpecial">@TheCinesthetic</span>
           </div>
           <div class="follow_button">
-            <button class="follow">Follow</button>
+            <button class="follow" id="fobtn2">Follow</button>
           </div>
         </div>
       </div>
