@@ -1,0 +1,18 @@
+.settingsblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.6;
+}
+
+.inputContainer .input{
+    width: 240px;
+}
+
+.signupFrm .label{
+    width: max-content;
+}
+
+.tweetBox__tweetButton{
+    width: 240px;
+}

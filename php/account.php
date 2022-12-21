@@ -53,10 +53,10 @@
       </div>
       </a>
       
-      <a href="saved.php" class="links">
+      <a href="setting.php" class="links">
       <div class="sidebarOption">
-        <span class="material-icons"> bookmark_border </span>
-        <h2>Saved</h2>
+      <span class="material-symbols-outlined material-icons">settings</span>
+        <h2>Settings</h2>
       </div>
       </a>
 
@@ -87,7 +87,7 @@
       <div class="dp">
         <img src="../images/dp/dp.jpg" alt="" height="134px">
         <div class="edit_profile">
-        <a href="">Edit Profile</a>
+        <a href="setting.php">Edit Profile</a>
         </div>
       </div>
       <div class="post__headerText profile_name">

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../css/homepage.css">
         <link rel="stylesheet" href="../css/chats.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -53,10 +54,10 @@
       </div>
       </a>
       
-      <a href="saved.php" class="links">
+      <a href="setting.php" class="links">
       <div class="sidebarOption">
-        <span class="material-icons"> bookmark_border </span>
-        <h2>Saved</h2>
+      <span class="material-symbols-outlined material-icons">settings</span>
+        <h2>Settings</h2>
       </div>
       </a>
 
@@ -111,11 +112,11 @@
         <div class="username_profile">
           <div class="username_profile_details">
             <div class="username">
-              <h3>Varun Rao</h3>
+              <h3>Varun rao</h3>
             </div>
 
             <div class="profile">
-              <span>@rao_29k</span>
+              <span>@rao_26</span>
             </div>
           </div>
           <div class="message">
